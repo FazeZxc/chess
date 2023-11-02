@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chess.com</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="chessboard">
+      <div class="outer-box">
+        <div class="inner-grid">
+          <div id="81" class="white-box">
+            <div class="black-rook"></div>
+          </div>
+          <div id="82" class="black-box">
+            <div class="black-knight"></div>
+          </div>
+          <div id="83" class="white-box">
+            <div class="black-bishop"></div>
+          </div>
+          <div id="84" class="black-box">
+            <div class="black-queen"></div>
+          </div>
+          <div id="85" class="white-box">
+            <div class="black-king"></div>
+          </div>
+          <div id="86" class="black-box">
+            <div class="black-bishop"></div>
+          </div>
+          <div id="87" class="white-box">
+            <div class="black-knight"></div>
+          </div>
+          <div id="88" class="black-box">
+            <div class="black-rook"></div>
+          </div>
+        </div>
+        <div class="inner-grid">
+          <div id="71" class="black-box">
+            <div class="black pawn"></div>
+          </div>
+          <div id="72" class="white-box">
+            <div class="black pawn"></div>
+          </div>
+          <div id="73" class="black-box">
+            <div class="black pawn"></div>
+          </div>
+          <div id="74" class="white-box">
+            <div class="black pawn"></div>
+          </div>
+          <div id="75" class="black-box">
+            <div class="black pawn"></div>
+          </div>
+          <div id="76" class="white-box">
+            <div class="black pawn"></div>
+          </div>
+          <div id="77" class="black-box">
+            <div class="black pawn"></div>
+          </div>
+          <div id="78" class="white-box">
+            <div class="black pawn"></div>
+          </div>
+        </div>
+        <div class="inner-grid">
+          <div id="61" class="white-box"></div>
+          <div id="62" class="black-box"></div>
+          <div id="63" class="white-box"></div>
+          <div id="64" class="black-box"></div>
+          <div id="65" class="white-box"></div>
+          <div id="66" class="black-box"></div>
+          <div id="67" class="white-box"></div>
+          <div id="68" class="black-box"></div>
+        </div>
+        <div class="inner-grid">
+          <div id="51" class="black-box"></div>
+          <div id="52" class="white-box"></div>
+          <div id="53" class="black-box"></div>
+          <div id="54" class="white-box"></div>
+          <div id="55" class="black-box"></div>
+          <div id="56" class="white-box"></div>
+          <div id="57" class="black-box"></div>
+          <div id="58" class="white-box"></div>
+        </div>
+        <div class="inner-grid">
+          <div id="41" class="white-box"></div>
+          <div id="42" class="black-box"></div>
+          <div id="43" class="white-box"></div>
+          <div id="44" class="black-box"></div>
+          <div id="45" class="white-box"></div>
+          <div id="46" class="black-box"></div>
+          <div id="47" class="white-box"></div>
+          <div id="48" class="black-box"></div>
+        </div>
+        <div class="inner-grid">
+          <div id="31" class="black-box"></div>
+          <div id="32" class="white-box"></div>
+          <div id="33" class="black-box"></div>
+          <div id="34" class="white-box"></div>
+          <div id="35" class="black-box"></div>
+          <div id="36" class="white-box"></div>
+          <div id="37" class="black-box"></div>
+          <div id="38" class="white-box"></div>
+        </div>
+        <div class="inner-grid">
+          <div id="21" class="white-box">
+            <div class="white-pawn pawn"></div>
+          </div>
+          <div id="22" class="black-box">
+            <div class="white-pawn pawn"></div>
+          </div>
+          <div id="23" class="white-box">
+            <div class="white-pawn pawn"></div>
+          </div>
+          <div id="24" class="black-box">
+            <div class="white-pawn pawn"></div>
+          </div>
+          <div id="25" class="white-box">
+            <div class="white-pawn pawn"></div>
+          </div>
+          <div id="26" class="black-box">
+            <div class="white-pawn pawn"></div>
+          </div>
+          <div id="27" class="white-box">
+            <div class="white-pawn pawn"></div>
+          </div>
+          <div id="28" class="black-box">
+            <div class="white-pawn pawn"></div>
+          </div>
+        </div>
+        <div class="inner-grid">
+          <div id="11" class="black-box">
+            <div class="white-rook"></div>
+          </div>
+          <div id="12" class="white-box">
+            <div class="white-knight"></div>
+          </div>
+          <div id="13" class="black-box">
+            <div class="white-bishop"></div>
+          </div>
+          <div id="14" class="white-box">
+            <div class="white-queen"></div>
+          </div>
+          <div id="15" class="black-box">
+            <div class="white-king"></div>
+          </div>
+          <div id="16" class="white-box">
+            <div class="white-bishop"></div>
+          </div>
+          <div id="17" class="black-box">
+            <div class="white-knight"></div>
+          </div>
+          <div id="18" class="white-box">
+            <div class="white-rook"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="side-box">
+      <h1>Welcome to Chess</h1>
+      <ul id="menu-main-screen">
+        <li id="button-main-screen">
+          <a href="#single_player">Single Player</a>
+        </li>
+        <li id="button-main-screen">
+          <a href="#multi_player">Multi Player</a>
+        </li>
+        <li id="button-main-screen">
+          <a href="#settings">Settings</a>
+        </li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
